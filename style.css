@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #95d6ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-container{
+    color: white;
+    border: 1px solid black;
+    padding: 4rem;
+    border-radius: 50px;
+    background-color:#387c8f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.temp{
+    font-size: 4rem;
+}
+.time-location{
+    font-size: 2em;
+}
+.condition{
+    margin: 0.5rem;
+    margin-left: 0.2rem;
+}
+nav{
+    height: 100px;
+    margin: 5rem;
+}
+.search-area{
+   font-size: 1.1rem;
+   padding: 1rem 0;
+   outline: none;
+   border: 2px solid;
+   color: rgb(255, 255, 255);
+   background-color: transparent;
+   backdrop-filter: blur(10px);
+   border-bottom: 2px solid white;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 5rem;
+}
+nav form button{
+    background-color: #69c5e1;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 100px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: grey;
+}
