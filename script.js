@@ -1,6 +1,3 @@
-//http://api.weatherapi.com/v1/current.json?key=c71103b11f3a4028869152601250204&q=mumbai&aqi=no
-//http://api.weatherapi.com/v1/current.json?key=c71103b11f3a4028869152601250204&q=${targetLocation}&aqi=no`;
-
 const temperatureField = document.querySelector('.temp');
 const locationField =document.querySelector(".time-location p");
 const dataandTimeField = document.querySelector(".time-location");
