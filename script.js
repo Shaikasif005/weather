@@ -11,7 +11,7 @@ let target="mumbai"
 
 const fetchResults= async (targetLocation)=>{
     let url=`
-http://api.weatherapi.com/v1/current.json?key=c71103b11f3a4028869152601250204&q=${targetLocation}&aqi=no`;
+https://api.weatherapi.com/v1/current.json?key=c71103b11f3a4028869152601250204&q=${targetLocation}&aqi=no`;
 
     const res= await fetch(url)
     
